@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: white;
+}
+
+li {
+    margin: 10px;
+}
+
+.header {
+    background-color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+.header p {
+    font-family: Arial;
+    margin: 8px 0;
+}
+
+/* Topnav */
+
+.topnav {
+    overflow: hidden;
+    background-color: #F05023;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.column {
+    float: left;
+    width: 1000px;
+    width: 100%;
+    padding: 15px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+.card {
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
